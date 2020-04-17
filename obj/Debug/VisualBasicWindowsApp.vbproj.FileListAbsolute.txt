@@ -1,0 +1,12 @@
+C:\Users\Apple\Desktop\Developer\Visual Studio Projects\VisualBasicWindowsApp\bin\Debug\DesktopTool.exe.config
+C:\Users\Apple\Desktop\Developer\Visual Studio Projects\VisualBasicWindowsApp\bin\Debug\DesktopTool.exe
+C:\Users\Apple\Desktop\Developer\Visual Studio Projects\VisualBasicWindowsApp\bin\Debug\DesktopTool.pdb
+C:\Users\Apple\Desktop\Developer\Visual Studio Projects\VisualBasicWindowsApp\bin\Debug\DesktopTool.xml
+C:\Users\Apple\Desktop\Developer\Visual Studio Projects\VisualBasicWindowsApp\obj\Debug\DesktopTool.Form1.resources
+C:\Users\Apple\Desktop\Developer\Visual Studio Projects\VisualBasicWindowsApp\obj\Debug\DesktopTool.Resources.resources
+C:\Users\Apple\Desktop\Developer\Visual Studio Projects\VisualBasicWindowsApp\obj\Debug\VisualBasicWindowsApp.vbproj.GenerateResource.cache
+C:\Users\Apple\Desktop\Developer\Visual Studio Projects\VisualBasicWindowsApp\obj\Debug\VisualBasicWindowsApp.vbproj.CoreCompileInputs.cache
+C:\Users\Apple\Desktop\Developer\Visual Studio Projects\VisualBasicWindowsApp\obj\Debug\DesktopTool.exe
+C:\Users\Apple\Desktop\Developer\Visual Studio Projects\VisualBasicWindowsApp\obj\Debug\DesktopTool.xml
+C:\Users\Apple\Desktop\Developer\Visual Studio Projects\VisualBasicWindowsApp\obj\Debug\DesktopTool.pdb
+C:\Users\Apple\Desktop\Developer\Visual Studio Projects\VisualBasicWindowsApp\obj\Debug\VisualBasicWindowsApp.vbprojAssemblyReference.cache
