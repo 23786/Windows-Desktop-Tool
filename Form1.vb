@@ -67,4 +67,13 @@ Public Class Form1
         p.Start()
     End Sub
 
+    ' 启动任务管理器
+    Private Sub TaskButton_Click(sender As Object, e As EventArgs) Handles TaskButton.Click
+        RunCommand("taskmgr.exe")
+    End Sub
+
+    Private Sub NotepadButton_Click(sender As Object, e As EventArgs) Handles NotepadButton.Click
+        RunCommand("notepad.exe")
+    End Sub
+
 End Class

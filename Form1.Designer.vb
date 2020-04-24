@@ -31,6 +31,8 @@ Partial Class Form1
         Me.Seperator = New System.Windows.Forms.Label()
         Me.ControlButton = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.TaskButton = New System.Windows.Forms.Button()
+        Me.NotepadButton = New System.Windows.Forms.Button()
         Me.CalcButton = New System.Windows.Forms.Button()
         Me.CmdButton = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1.SuspendLayout()
@@ -123,6 +125,8 @@ Partial Class Form1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.TaskButton, 2, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.NotepadButton, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.ControlButton, 4, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.CalcButton, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.CmdButton, 3, 0)
@@ -132,6 +136,42 @@ Partial Class Form1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(412, 54)
         Me.TableLayoutPanel1.TabIndex = 8
+        '
+        'TaskButton
+        '
+        Me.TaskButton.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TaskButton.BackColor = System.Drawing.Color.Transparent
+        Me.TaskButton.BackgroundImage = CType(resources.GetObject("TaskButton.BackgroundImage"), System.Drawing.Image)
+        Me.TaskButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.TaskButton.FlatAppearance.BorderSize = 0
+        Me.TaskButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
+        Me.TaskButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.TaskButton.Location = New System.Drawing.Point(168, 5)
+        Me.TaskButton.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TaskButton.Name = "TaskButton"
+        Me.TaskButton.Size = New System.Drawing.Size(75, 44)
+        Me.TaskButton.TabIndex = 11
+        Me.TaskButton.UseVisualStyleBackColor = False
+        '
+        'NotepadButton
+        '
+        Me.NotepadButton.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.NotepadButton.BackColor = System.Drawing.Color.Transparent
+        Me.NotepadButton.BackgroundImage = CType(resources.GetObject("NotepadButton.BackgroundImage"), System.Drawing.Image)
+        Me.NotepadButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.NotepadButton.FlatAppearance.BorderSize = 0
+        Me.NotepadButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
+        Me.NotepadButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.NotepadButton.Location = New System.Drawing.Point(4, 5)
+        Me.NotepadButton.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.NotepadButton.Name = "NotepadButton"
+        Me.NotepadButton.Size = New System.Drawing.Size(75, 44)
+        Me.NotepadButton.TabIndex = 10
+        Me.NotepadButton.UseVisualStyleBackColor = True
         '
         'CalcButton
         '
@@ -201,4 +241,6 @@ Partial Class Form1
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents CalcButton As Button
     Friend WithEvents CmdButton As Button
+    Friend WithEvents TaskButton As Button
+    Friend WithEvents NotepadButton As Button
 End Class
